@@ -2,8 +2,10 @@
 MACHINES = {
   # VM name "kernel update"
   :"kernel-update" => {
+              # VM name in VirtualBox
+              :vm_name => "otus-linux_hw01-kernel-update_spv",
               # VM box
-              :box_name => "centos/7",
+			  :box_name => "centos-7-5",  # "centos/7"
               # VM CPU count
               :cpus => 2,
               # VM RAM size (Mb)
@@ -38,6 +40,8 @@ Vagrant.configure("2") do |config|
       end
       # VM resources config
       box.vm.provider "virtualbox" do |v|
+        # Set VM name in Virtual Box
+        v.name = boxconfig[:vm_name]
         # Set VM RAM size and CPU count
         v.memory = boxconfig[:memory]
         v.cpus = boxconfig[:cpus]
