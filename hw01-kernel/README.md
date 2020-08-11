@@ -1,4 +1,4 @@
-# HW01 -- обновление ядра
+# HW01 -- Обновить ядро в базовой системе
 
 > Цель: Студент получит навыки работы с Git, Vagrant, Packer и публикацией готовых образов в Vagrant Cloud.
 >
@@ -12,7 +12,8 @@
 >
 > ДЗ с \*\*: В вашем образе нормально работают VirtualBox Shared Folders
 >
-> Методичка -- https://github.com/dmitry-lyutenko/manual_kernel_update/blob/master/manual/manual.md
+
+Методичка -- https://github.com/dmitry-lyutenko/manual_kernel_update/blob/master/manual/manual.md
 
 ДЗ выполнялось на:
 
