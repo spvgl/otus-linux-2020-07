@@ -15,6 +15,8 @@
 
 Методичка -- https://github.com/dmitry-lyutenko/manual_kernel_update/blob/master/manual/manual.md
 
+Первоначальные папки `manual`, `packer` и `Vagrantfile` скопированы отсюда -- https://github.com/dmitry-lyutenko/manual_kernel_update
+
 ДЗ выполнялось на:
 
 - Windows 7 SP1 x64 (host)
