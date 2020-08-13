@@ -1,6 +1,6 @@
 # Describe VMs
 MACHINES = {
-  :"kernel-update" => {
+  :"hw01-kernel" => {
               # VM name in VirtualBox
               :vm_name => "otus-linux_hw01-kernel-update_spv",
               # VM box
