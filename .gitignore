@@ -2,3 +2,5 @@
 *.vdi
 packer_cache
 *.box
+
+.idea
